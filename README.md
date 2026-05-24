@@ -7,7 +7,7 @@
 
 ## Brief
 
-Klijent **KOROV** je izmišljena mikro pržionica specijalne kafe sa Dorćola. Bavi se direktnim uvozom zrna iz Etiopije, Kolumbije i Burundija, prženjem u malim serijama (~200kg nedeljno) i prodajom kako krajnjim korisnicima tako i partnerskim kafićima.
+**KOROV** je  mikro pržionica specijalne kafe sa Dorćola. Bavi se direktnim uvozom zrna iz Etiopije, Kolumbije i Burundija, prženjem u malim serijama (~200kg nedeljno) i prodajom kako krajnjim korisnicima tako i partnerskim kafićima.
 
 **Cilj landing page-a:**
 1. Komunicirati premium pozicioniranje brenda bez korišćenja banalnih „artisan coffee" klišea.
