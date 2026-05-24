@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KOROV — Pržionica Specijalne Kafe / Beograd</title>
+<meta name="description" content="KOROV — mikro pržionica specijalne kafe iz Beograda. Single origin zrna, pržena u malim serijama. Od 2021." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,400&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- GRAIN OVERLAY -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- NAVIGATION -->
+<header class="nav">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo" aria-label="Korov početna">
+      <span class="nav__logo-mark">⌘</span>
+      <span class="nav__logo-text">KOROV</span>
+    </a>
+    <nav class="nav__menu" aria-label="Glavna navigacija">
+      <a href="#zrna">Zrna</a>
+      <a href="#metod">Metod</a>
+      <a href="#prica">Priča</a>
+      <a href="#dnevnik">Dnevnik</a>
+    </nav>
+    <a href="#poruci" class="nav__cta">
+      Poruči
+      <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__meta">
+    <span class="tag">№ 014 / PROLEĆE '26</span>
+    <span class="tag tag--dot">BEOGRAD · 44.81°N</span>
+  </div>
+
+  <h1 class="hero__title">
+    <span class="hero__line hero__line--1">Korov</span>
+    <span class="hero__line hero__line--2">
+      <em>raste</em> tamo gde
+    </span>
+    <span class="hero__line hero__line--3">ga ne <span class="hero__strike">očekuju.</span></span>
+  </h1>
+
+  <div class="hero__bottom">
+    <p class="hero__lede">
+      Pržionica specijalne kafe u Dorćolu.<br />
+      Single origin zrna iz Etiopije, Kolumbije i Burundija — pržena u serijama od 4kg, ručno, svakog utorka u 06:42.
+    </p>
+    <div class="hero__scroll">
+      <span>Skroluj</span>
+      <span class="hero__scroll-arrow" aria-hidden="true">↓</span>
+    </div>
+  </div>
+
+  <!-- floating numbers -->
+  <div class="hero__numbers" aria-hidden="true">
+    <span class="float-num float-num--1">04</span>
+    <span class="float-num float-num--2">2021</span>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>★ ETIOPIJA YIRGACHEFFE</span>
+    <span>★ KOLUMBIJA HUILA</span>
+    <span>★ BURUNDI KAYANZA</span>
+    <span>★ GVATEMALA ANTIGUA</span>
+    <span>★ KENIJA NYERI</span>
+    <span>★ RUANDA KIVU</span>
+    <span>★ ETIOPIJA YIRGACHEFFE</span>
+    <span>★ KOLUMBIJA HUILA</span>
+    <span>★ BURUNDI KAYANZA</span>
+    <span>★ GVATEMALA ANTIGUA</span>
+    <span>★ KENIJA NYERI</span>
+    <span>★ RUANDA KIVU</span>
+  </div>
+</div>
+
+<!-- MANIFESTO -->
+<section class="manifesto">
+  <div class="manifesto__index">
+    <span>I.</span>
+    <span>Manifest</span>
+  </div>
+  <div class="manifesto__body">
+    <p>
+      Verujemo da je <em>najbolja kafa</em> ona koju neko zna po imenu —
+      farmera, sortu, parcelu, nadmorsku visinu. Sve ostalo je
+      <span class="strike">marketing</span> šum.
+    </p>
+    <p class="manifesto__small">
+      Ne kupujemo zrno na berzi. Plaćamo 3× više od „fer“ cene jer fer cena ne plaća školu.
+    </p>
+  </div>
+</section>
+
+<!-- ZRNA — PRODUCT GRID -->
+<section class="zrna" id="zrna">
+  <div class="section-head">
+    <div class="section-head__index">II. <span>Aktuelna ponuda</span></div>
+    <h2 class="section-head__title">Četiri zrna,<br />jedna <em>opsesija</em>.</h2>
+  </div>
+
+  <div class="zrna__grid">
+
+    <article class="bean" style="--bean-bg: #d4a373; --bean-fg: #1a1612;">
+      <div class="bean__top">
+        <span class="bean__num">01</span>
+        <span class="bean__origin">ETIOPIJA</span>
+      </div>
+      <h3 class="bean__name">Yirgacheffe<br />Konga</h3>
+      <ul class="bean__notes">
+        <li>jasmin</li>
+        <li>bergamot</li>
+        <li>med od lipe</li>
+      </ul>
+      <div class="bean__meta">
+        <div><span>Proces</span><strong>Pranje</strong></div>
+        <div><span>Visina</span><strong>2 050 m</strong></div>
+        <div><span>Pržiti</span><strong>Light</strong></div>
+      </div>
+      <div class="bean__bottom">
+        <span class="bean__price">1.480 RSD<small>/250g</small></span>
+        <button class="bean__btn">Dodaj <span aria-hidden="true">+</span></button>
+      </div>
+    </article>
+
+    <article class="bean" style="--bean-bg: #6b4226; --bean-fg: #f5e9d4;">
+      <div class="bean__top">
+        <span class="bean__num">02</span>
+        <span class="bean__origin">KOLUMBIJA</span>
+      </div>
+      <h3 class="bean__name">Huila<br />La Esperanza</h3>
+      <ul class="bean__notes">
+        <li>tamna čokolada</li>
+        <li>karamelizovan orah</li>
+        <li>crvena jabuka</li>
+      </ul>
+      <div class="bean__meta">
+        <div><span>Proces</span><strong>Honey</strong></div>
+        <div><span>Visina</span><strong>1 780 m</strong></div>
+        <div><span>Pržiti</span><strong>Medium</strong></div>
+      </div>
+      <div class="bean__bottom">
+        <span class="bean__price">1.280 RSD<small>/250g</small></span>
+        <button class="bean__btn">Dodaj <span aria-hidden="true">+</span></button>
+      </div>
+    </article>
+
+    <article class="bean" style="--bean-bg: #c1440e; --bean-fg: #fff4e6;">
+      <div class="bean__top">
+        <span class="bean__num">03</span>
+        <span class="bean__origin">BURUNDI</span>
+      </div>
+      <h3 class="bean__name">Kayanza<br />Nemba</h3>
+      <ul class="bean__notes">
+        <li>crna ribizla</li>
+        <li>cvet narandže</li>
+        <li>crni čaj</li>
+      </ul>
+      <div class="bean__meta">
+        <div><span>Proces</span><strong>Natural</strong></div>
+        <div><span>Visina</span><strong>1 920 m</strong></div>
+        <div><span>Pržiti</span><strong>Light</strong></div>
+      </div>
+      <div class="bean__bottom">
+        <span class="bean__price">1.640 RSD<small>/250g</small></span>
+        <button class="bean__btn">Dodaj <span aria-hidden="true">+</span></button>
+      </div>
+    </article>
+
+    <article class="bean bean--feature" style="--bean-bg: #1a1612; --bean-fg: #d4a373;">
+      <div class="bean__top">
+        <span class="bean__num">04</span>
+        <span class="bean__origin bean__origin--limited">LIMITIRANO · 60 KG</span>
+      </div>
+      <h3 class="bean__name">Geisha<br />Hartmann</h3>
+      <ul class="bean__notes">
+        <li>jasmin čaj</li>
+        <li>belo grožđe</li>
+        <li>pčelinji vosak</li>
+      </ul>
+      <div class="bean__meta">
+        <div><span>Proces</span><strong>Anaerob</strong></div>
+        <div><span>Visina</span><strong>2 200 m</strong></div>
+        <div><span>Pržiti</span><strong>Filter</strong></div>
+      </div>
+      <div class="bean__bottom">
+        <span class="bean__price">4.890 RSD<small>/100g</small></span>
+        <button class="bean__btn">Dodaj <span aria-hidden="true">+</span></button>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- METOD — PROCESS -->
+<section class="metod" id="metod">
+  <div class="section-head section-head--light">
+    <div class="section-head__index">III. <span>Metod</span></div>
+    <h2 class="section-head__title">Od <em>parcele</em><br />do tvoje šolje.</h2>
+  </div>
+
+  <ol class="steps">
+    <li class="step">
+      <span class="step__num">/ 01</span>
+      <h3>Izbor</h3>
+      <p>Tri puta godišnje putujemo na poreklo. Cuppujemo 80+ uzoraka. Od toga, na kraju, ostane tri.</p>
+    </li>
+    <li class="step">
+      <span class="step__num">/ 02</span>
+      <h3>Prevoz</h3>
+      <p>Klimatizovani kontejneri, GrainPro vreće. Zrno stiže u Beograd za 38 dana, bez gubitka aromatike.</p>
+    </li>
+    <li class="step">
+      <span class="step__num">/ 03</span>
+      <h3>Prženje</h3>
+      <p>Probat L12 iz 1974. Profilisanje na sekund. Svaka serija je dokumentovana — temperatura, ROR, development time.</p>
+    </li>
+    <li class="step">
+      <span class="step__num">/ 04</span>
+      <h3>Odmaranje</h3>
+      <p>Espresso 12 dana. Filter 7 dana. Kafa nije sveža na dan prženja — sveža je kad je spremna.</p>
+    </li>
+    <li class="step">
+      <span class="step__num">/ 05</span>
+      <h3>Pakovanje</h3>
+      <p>Reciklirana vrećica sa jednosmernim ventilom. Datum prženja, lot, koordinate parcele — sve štampamo ručno.</p>
+    </li>
+    <li class="step">
+      <span class="step__num">/ 06</span>
+      <h3>Dostava</h3>
+      <p>U Beogradu — biciklom, do 24 sata. Ostatak Srbije — Post Express, 48 sati. Inostranstvo — pišite.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- PRIČA — ABOUT -->
+<section class="prica" id="prica">
+  <div class="prica__grid">
+    <div class="prica__left">
+      <div class="section-head__index section-head__index--light">IV. <span>Priča</span></div>
+      <h2 class="prica__title">
+        Počelo je<br />
+        sa <em>pokvarenim</em><br />
+        bojlerom.
+      </h2>
+    </div>
+    <div class="prica__right">
+      <p>
+        2021. godine, u stanu na Dorćolu bez tople vode tri dana, Milica Đorđević je probala da skuva kafu na sporom režimu — 96°C umesto ključalih 100°C. Razlika je bila <em>neprijatno</em> velika.
+      </p>
+      <p>
+        Tri godine kasnije, Korov je mikro-pržionica koja snabdeva 14 kafića u regionu, izvozi u Beč i Berlin, i tvrdoglavo odbija da poraste preko 200 kilograma nedeljno.
+      </p>
+      <p class="prica__sig">
+        — M. Đ., osnivačica<br />
+        <span>Glavni roaster Q-grader</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="prica__stats">
+    <div class="stat">
+      <span class="stat__num" data-count="14">14</span>
+      <span class="stat__label">Partner kafića</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" data-count="187">187</span>
+      <span class="stat__label">Serija godišnje</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" data-count="3">3</span>
+      <span class="stat__label">Direktna porekla</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" data-count="0">0</span>
+      <span class="stat__label">Kompromisa</span>
+    </div>
+  </div>
+</section>
+
+<!-- DNEVNIK — JOURNAL -->
+<section class="dnevnik" id="dnevnik">
+  <div class="section-head">
+    <div class="section-head__index">V. <span>Dnevnik prženja</span></div>
+    <h2 class="section-head__title">Beleške sa<br /><em>bubnja.</em></h2>
+  </div>
+
+  <div class="dnevnik__list">
+    <a href="#" class="entry">
+      <span class="entry__date">14. MAJ 2026</span>
+      <h3 class="entry__title">Zašto smo skratili razvoj za 11 sekundi</h3>
+      <p class="entry__excerpt">Novi lot iz Burundija ima 1.2% viši sadržaj vlage. Evo šta to znači za krivu prženja...</p>
+      <span class="entry__more">Čitaj →</span>
+    </a>
+    <a href="#" class="entry">
+      <span class="entry__date">02. MAJ 2026</span>
+      <h3 class="entry__title">Cuppingom u La Esperanzi, Huila</h3>
+      <p class="entry__excerpt">Sedam dana, četrdeset uzoraka, jedna farma. Beleške sa puta i razgovor sa Danielom Muñozom.</p>
+      <span class="entry__more">Čitaj →</span>
+    </a>
+    <a href="#" class="entry">
+      <span class="entry__date">18. APR 2026</span>
+      <h3 class="entry__title">Voda. Najpotcenjenija varijabla.</h3>
+      <p class="entry__excerpt">Beogradska voda iz česme — šta je dobro, šta nije, i kako da napraviš sopstveni recept za ekstrakciju.</p>
+      <span class="entry__more">Čitaj →</span>
+    </a>
+  </div>
+</section>
+
+<!-- CTA / SUBSCRIPTION -->
+<section class="cta" id="poruci">
+  <div class="cta__inner">
+    <p class="cta__kicker">VI. Pretplata</p>
+    <h2 class="cta__title">
+      Kafa koja te <em>čeka.</em><br />
+      Ne obrnuto.
+    </h2>
+    <p class="cta__lede">
+      Svake druge srede, 250g sveže pržene kafe pred tvojim vratima. Biraš proces, prženje i metod. Otkazuješ kad god — ali nećeš.
+    </p>
+
+    <form class="cta__form" onsubmit="event.preventDefault(); this.querySelector('.cta__success').classList.add('is-visible'); this.querySelector('button').disabled = true;">
+      <label class="cta__field">
+        <span>Email</span>
+        <input type="email" required placeholder="ti@nekogde.rs" />
+      </label>
+      <button type="submit">
+        Pretplati me
+        <span aria-hidden="true">→</span>
+      </button>
+      <p class="cta__success">★ Skoro tu. Proveri inbox za potvrdu.</p>
+    </form>
+
+    <p class="cta__fine">
+      Od 2.480 RSD mesečno · Dostava uključena u Beogradu · Bez ugovora
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <span class="footer__mark">⌘</span>
+      <p>
+        <strong>KOROV</strong> mikro pržionica<br />
+        Cara Uroša 42, Beograd<br />
+        Sreda–nedelja, 09:00–19:00
+      </p>
+    </div>
+    <div class="footer__cols">
+      <div>
+        <h4>Shop</h4>
+        <a href="#">Sve kafe</a>
+        <a href="#">Pretplata</a>
+        <a href="#">Pribor</a>
+        <a href="#">Pokloni</a>
+      </div>
+      <div>
+        <h4>Pratite</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Spotify (filter playlist)</a>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <a href="mailto:zdravo@korov.rs">zdravo@korov.rs</a>
+        <a href="#">+381 60 042 0042</a>
+        <a href="#">Veleprodaja</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 KOROV d.o.o. · PIB 112233445</span>
+    <span class="footer__sign">Dizajn & development — <em>Nikola Živković</em></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
